@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		.a{
+			background-color: red;
+			width: 100px;
+		}
+		.b{
+			background-color: blue;
+			flex-grow: 1;
+
+		}
+		.c{
+			background-color: green;
+			width: 100px;
+		}
+		.flex{
+			display: flex;
+			justify-content: space-between;
+		}
+	</style>
+</head>
+<body>
+	<div class="flex"> 
+		<div class="a">
+			<h1>1</h1>
+		</div>
+		<div class="b">
+			<h1>2</h1>
+		</div>
+		<div class="c">
+			<h1>3</h1>
+		</div>
+		
+	</div>
+</body>
+</html>
